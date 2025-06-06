@@ -32,6 +32,8 @@ brew 'gifsicle'
 # Development
 brew 'imagemagick'
 brew 'yarn'
+brew 'podman'
+brew 'podman-compose'
 
 # Apps
 cask '1password'
