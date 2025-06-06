@@ -13,12 +13,12 @@ alias version="commit 'version'"
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 
-# JS
-alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
-alias watch="npm run dev"
+# Common
+alias c="clear"
+alias docker="podman"
 
 # Docker
-alias docker-composer="docker-compose"
+alias docker-composer="podman-compose"
 
 # SQL Server
 alias mssql="docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=LaravelWow1986! -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest"
