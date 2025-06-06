@@ -111,3 +111,6 @@ export LANG=en_US.UTF-8
 alias vim=nvim
 
 alias docker=podman
+
+# Created by `pipx` on 2025-06-06 16:54:45
+export PATH="$PATH:/Users/max/.local/bin"
